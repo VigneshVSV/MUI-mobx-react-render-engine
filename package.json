@@ -2,7 +2,8 @@
   "name": "mui-mobx-render-engine",
   "version": "0.1.0",
   "description": "derivation for mobx-render-engine primarily containing MUI components",
-  "main": "index.tsx",
+  "main": "src/index.tsx",
+  "files": ["src"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
