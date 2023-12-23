@@ -1,0 +1,31 @@
+{
+  "name": "mui-mobx-render-engine",
+  "version": "0.1.0",
+  "description": "derivation for mobx-render-engine primarily containing MUI components",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VigneshVSV/MUI-mobx-render-enginer.git"
+  },
+  "keywords": [
+    "React",
+    "MUI",
+    "mobx-render-engine",
+    "mobx"
+  ],
+  "author": "Vignesh Vaidyanathan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VigneshVSV/MUI-mobx-render-enginer/issues"
+  },
+  "homepage": "https://github.com/VigneshVSV/MUI-mobx-render-enginer#readme",
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.1",
+    "mobx-react-lite": "^4.0.5"
+  }
+}
