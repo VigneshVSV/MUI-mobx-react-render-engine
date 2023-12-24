@@ -7,7 +7,6 @@ import { ButtonBaseProps } from '@mui/material/ButtonBase';
 import { TextFieldProps } from '@mui/material/TextField';
 // Custom component libraries
 import { ButtonGroupProps } from '@mui/material/ButtonGroup';
-import { IconButtonProps } from '@mui/material/IconButton';
 import { LinkProps } from '@mui/material/Link';
 import { PaperProps } from '@mui/material/Paper';
 import { FormControlProps } from '@mui/material/FormControl';
