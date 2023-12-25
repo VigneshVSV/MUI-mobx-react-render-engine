@@ -10,7 +10,7 @@ import { ContextfulMUIStackProps } from '../component-types';
 
 
 
-export const ContextfulMUIStack = observer( ({state, renderer, logger, ...props} : RenderEngineComponentProps ) => {
+export const ContextfulStack = observer( ({state, renderer, logger, ...props} : RenderEngineComponentProps ) => {
 
 	const id = state.id
 	const { component, direction, divider, spacing, sx, useFlexGap } = state.computedProps as ContextfulMUIStackProps

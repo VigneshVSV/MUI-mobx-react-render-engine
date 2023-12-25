@@ -2,10 +2,12 @@
   "name": "mui-mobx-render-engine",
   "version": "0.1.0",
   "description": "derivation for mobx-render-engine primarily containing MUI components",
-  "main": "src/index.tsx",
-  "files": ["src"],
+  "main": "dist/index.tsx",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rmdir dist /s",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -23,10 +25,17 @@
     "url": "https://github.com/VigneshVSV/MUI-mobx-render-enginer/issues"
   },
   "homepage": "https://github.com/VigneshVSV/MUI-mobx-render-enginer#readme",
-  "dependencies": {
+  "devDependencies": {
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
     "@mui/material": "^5.15.1",
-    "mobx-react-lite": "^4.0.5"
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "mobx-react-lite": "^4.0.5",
+    "mobx-render-engine": "H:\\New Work\\mobx-render-engine\\dist",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.3.3"
   }
 }

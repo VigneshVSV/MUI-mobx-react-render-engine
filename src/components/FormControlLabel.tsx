@@ -7,11 +7,11 @@ import { FormControlLabel } from "@mui/material";
 // Custom component libraries
 import { RenderEngineComponentProps } from 'mobx-render-engine';
 import { ContextfulMUIFormControlLabelProps } from "../component-types";
-import { MUIRenderEngine } from '../mui-renderer';
+import { MUIRenderEngine } from '../index';
 
 
 
-export const ContextfulMUIFormControlLabel = observer(({state, renderer, logger, ...props } : RenderEngineComponentProps) => {
+export const ContextfulFormControlLabel = observer(({state, renderer, logger, ...props } : RenderEngineComponentProps) => {
 
     const id = state.id
     const { checked, classes, componentsProps, disabled, disableTypography, inputRef, 

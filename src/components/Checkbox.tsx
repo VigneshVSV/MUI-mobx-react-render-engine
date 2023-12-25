@@ -7,11 +7,11 @@ import { Checkbox } from '@mui/material';
 // Custom component libraries
 import { RenderEngineComponentProps } from 'mobx-render-engine';
 import { ContextfulMUICheckboxProps } from '../component-types';
-import { MUIRenderEngine } from '../mui-renderer';
+import { MUIRenderEngine } from '../index';
 
 
 
-export const ContexfulMUICheckbox = observer(({state, renderer, logger, ...props } : RenderEngineComponentProps) => {
+export const ContexfulCheckbox = observer(({state, renderer, logger, ...props } : RenderEngineComponentProps) => {
 
     const { action, centerRipple, checked, checkedIcon, classes, color, defaultChecked, disabled,
         disableRipple, disableTouchRipple, focusRipple, icon, id, indeterminate, indeterminateIcon, 

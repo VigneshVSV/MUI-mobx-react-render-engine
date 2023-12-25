@@ -8,7 +8,7 @@ import { Radio, RadioGroup } from '@mui/material'
 // Custom component libraries
 import { ContextfulMUIRadioGroupProps, ContextfulMUIRadioProps } from '../component-types'
 import { RenderEngineComponentProps } from 'mobx-render-engine' 
-import { MUIRenderEngine } from '../mui-renderer';
+import { MUIRenderEngine } from '../index';
 
 
 
@@ -16,7 +16,7 @@ type ContextfulMUIRadioChildProps = {
     selectedValue? : string 
 } & RenderEngineComponentProps
 
-export const ContextfulMUIRadio = observer(({state, renderer, logger, ...props } : ContextfulMUIRadioChildProps) => {
+export const ContextfulRadio = observer(({state, renderer, logger, ...props } : ContextfulMUIRadioChildProps) => {
 
     const id = state.id
     const { checked, checkedIcon, classes, color, disabled, disableRipple, icon, 
@@ -51,7 +51,7 @@ export const ContextfulMUIRadio = observer(({state, renderer, logger, ...props }
 
 
 
-export const ContextfulMUIRadioGroup = observer(({state, renderer, logger, ...props } : RenderEngineComponentProps) => {
+export const ContextfulRadioGroup = observer(({state, renderer, logger, ...props } : RenderEngineComponentProps) => {
 
     const id = state.id 
     const { defaultValue, name, onChange, value } = state.computedProps as ContextfulMUIRadioGroupProps
@@ -75,7 +75,7 @@ export const ContextfulMUIRadioGroup = observer(({state, renderer, logger, ...pr
             {state.computedChildren.map((child : string) => {
                 let childState = renderer.componentStateMap[child] 
                 return (
-                    <ContextfulMUIRadio
+                    <ContextfulRadio
                         state={childState}
                         renderer={renderer}
                         logger={logger}

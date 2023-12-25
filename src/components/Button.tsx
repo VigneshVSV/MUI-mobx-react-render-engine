@@ -11,7 +11,7 @@ import { ContextfulMUIButtonProps } from '../component-types';
 // Note - refs, hover callbacks etc. are never used
 
 
-export const MUIButton = ({state, renderer, logger, ...props} : RenderEngineComponentProps) => {
+export const ContextfulButton = observer(({state, renderer, logger, ...props} : RenderEngineComponentProps) => {
 
 	const id = state.id
 	const { classes, color, component, disabled, disableElevation, disableFocusRipple, disableRipple, endIcon, fullWidth, 
@@ -59,12 +59,12 @@ export const MUIButton = ({state, renderer, logger, ...props} : RenderEngineComp
 			{renderer.Children(state.computedChildren)}
 		</Button>
 	)
-}
+})
 
-export const ContextfulMUIButton = observer(MUIButton)
+// export const ContextfulMUIButton = observer(MUIButton)
 
 
-export const ContextfulMUIhRefButton = observer( ({state, renderer, logger, ...props} : RenderEngineComponentProps) => {
+export const ContextfulhRefButton = observer( ({state, renderer, logger, ...props} : RenderEngineComponentProps) => {
 
 	const id = state.id
 	const { classes, color, component, disabled, disableElevation, disableFocusRipple, disableRipple, endIcon, fullWidth, href, 

@@ -11,7 +11,7 @@ import { ContextfulMUIButtonGroupProps, ContextfulMUIButtonProps } from '../comp
 
 
 
-export const ContextfulMUIButtonGroup = observer( ({state, renderer, logger, ...props} : RenderEngineComponentProps ) => {
+export const ContextfulButtonGroup = observer( ({state, renderer, logger, ...props} : RenderEngineComponentProps ) => {
 
 	const id = state.id
 	const { classes, color, component, disabled, disableElevation, disableFocusRipple, disableRipple, fullWidth, orientation, 

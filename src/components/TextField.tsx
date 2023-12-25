@@ -11,7 +11,7 @@ import { RenderEngineComponentProps } from 'mobx-render-engine'
 
 // Note - refs, hover callbacks etc. are never used
 
-export const ContextfulMUITextField = observer( ({ state, renderer, logger, ...props} : RenderEngineComponentProps ) => {
+export const ContextfulTextField = observer( ({ state, renderer, logger, ...props} : RenderEngineComponentProps ) => {
 
 	const id = state.id
     const { classes, component, autoComplete, autoFocus, color, defaultValue, disabled, error, FormHelperTextProps, fullWidth, 

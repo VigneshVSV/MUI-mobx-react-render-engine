@@ -10,7 +10,7 @@ import { ContextfulMUIDividerProps } from "../component-types"
 
 
 
-export const ContextfulMUIDivider = observer( ({state, renderer, logger, ...props} : RenderEngineComponentProps ) => {
+export const ContextfulDivider = observer( ({state, renderer, logger, ...props} : RenderEngineComponentProps ) => {
 
 	const id = state.id
 	const { absolute, classes, component, flexItem, light, 

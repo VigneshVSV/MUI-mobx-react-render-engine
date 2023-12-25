@@ -1,4 +1,5 @@
 // Internal & 3rd party functional libraries
+import React from 'react';
 // Custom functional libraries
 // Internal & 3rd party component libraries
 import { TypographyProps } from '@mui/material/Typography';

@@ -10,7 +10,7 @@ import { ContextfulMUIBoxProps } from "../component-types"
 
 
 
-export const ContextfulMUIBox = observer( ({state, renderer, logger, ...props} : RenderEngineComponentProps ) => {
+export const ContextfulBox = observer( ({state, renderer, logger, ...props} : RenderEngineComponentProps ) => {
 
 	const id = state.id
 	const { component, sx } = state.computedProps as ContextfulMUIBoxProps
