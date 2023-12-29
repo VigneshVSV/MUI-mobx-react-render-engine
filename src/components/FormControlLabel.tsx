@@ -1,11 +1,10 @@
 // Internal & 3rd party functional libraries
-import React from 'react';
 import { observer } from "mobx-react-lite";
 import { FormControlLabel } from "@mui/material";
 // Custom functional libraries
 // Internal & 3rd party component libraries
 // Custom component libraries
-import { RenderEngineComponentProps } from 'mobx-render-engine';
+import { RenderEngineComponentProps } from '@hololinked/mobx-render-engine';
 import { ContextfulMUIFormControlLabelProps } from "../component-types";
 import { MUIRenderEngine } from '../index';
 

@@ -1,11 +1,10 @@
 // Internal & 3rd party functional libraries
-import React from 'react';
 import { observer } from 'mobx-react-lite';
 // Custom functional libraries
 // Internal & 3rd party component libraries
 import Button from '@mui/material/Button';
 // Custom component libraries
-import { RenderEngineComponentProps } from 'mobx-render-engine';
+import { RenderEngineComponentProps } from '@hololinked/mobx-render-engine';
 import { ContextfulMUIButtonProps } from '../component-types';
 
 // Note - refs, hover callbacks etc. are never used

@@ -1,5 +1,4 @@
 // Internal & 3rd party functional libraries
-import React from 'react';
 import { observer } from 'mobx-react-lite'
 import { useState } from 'react'
 // Custom functional libraries
@@ -7,7 +6,7 @@ import { useState } from 'react'
 import { Radio, RadioGroup } from '@mui/material'
 // Custom component libraries
 import { ContextfulMUIRadioGroupProps, ContextfulMUIRadioProps } from '../component-types'
-import { RenderEngineComponentProps } from 'mobx-render-engine' 
+import { RenderEngineComponentProps } from '@hololinked/mobx-render-engine' 
 import { MUIRenderEngine } from '../index';
 
 

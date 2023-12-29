@@ -1,12 +1,11 @@
 // Internal & 3rd party functional libraries
-import React from 'react';
 import { observer } from 'mobx-react-lite';
 import { ChangeEvent } from 'react';
 // Internal & 3rd party component libraries
 import TextField from '@mui/material/TextField';
 // Custom component libraries
 import { ContextfulMUITextFieldProps } from '../component-types';
-import { RenderEngineComponentProps } from 'mobx-render-engine'
+import { RenderEngineComponentProps } from '@hololinked/mobx-render-engine'
 
 
 // Note - refs, hover callbacks etc. are never used
