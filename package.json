@@ -1,5 +1,5 @@
 {
-  "name": "@hololinked/mui-mobx-render-engine",
+  "name": "@hololinked/mui-render-engine",
   "version": "0.1.1",
   "description": "derivation for mobx-render-engine primarily containing MUI components",
   "main": "index.js",
@@ -10,11 +10,11 @@
     "clean": "rmdir dist /s /q",
     "build": "tsc && robocopy . .\\dist package.json README.md LICENSE",
     "pack": "cd dist && npm pack . && cd ..",
-    "publish": "cd dist && npm publish --access public && cd .."
+    "publish-package": "cd dist && npm publish --access public && cd .."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VigneshVSV/MUI-mobx-render-enginer.git"
+    "url": "git+https://github.com/VigneshVSV/mui-render-engine.git"
   },
   "keywords": [
     "react",
@@ -26,9 +26,9 @@
   "author": "Vignesh Vaidyanathan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/VigneshVSV/MUI-mobx-render-enginer/issues"
+    "url": "https://github.com/VigneshVSV/mui-render-engine.git"
   },
-  "homepage": "https://github.com/VigneshVSV/MUI-mobx-render-enginer#readme",
+  "homepage": "https://github.com/VigneshVSV/mui-render-engine#readme",
   "devDependencies": {
     "@types/react": "^18.2.45",
     "@types/react-dom": "^18.2.18",
