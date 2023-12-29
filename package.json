@@ -1,5 +1,5 @@
 {
-  "name": "mui-mobx-render-engine",
+  "name": "@hololinked/mui-mobx-render-engine",
   "version": "0.1.0",
   "description": "derivation for mobx-render-engine primarily containing MUI components",
   "main": "index.js",
@@ -9,7 +9,8 @@
     "uninstall-node-modules": "rmdir node_modules /s /q",
     "clean": "rmdir dist /s /q",
     "build": "tsc && robocopy . .\\dist package.json README.md LICENSE",
-    "pack" : "cd dist && npm pack . && cd .."
+    "pack" : "cd dist && npm pack . && cd ..",
+    "publish": "cd dist && npm publish --access public && cd .."
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,7 @@
   },
   "keywords": [
     "React",
-    "MUI",
+    "React MUI",
     "mobx-render-engine",
     "mobx"
   ],
